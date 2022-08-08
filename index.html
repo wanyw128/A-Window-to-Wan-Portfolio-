@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home - Wan's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+</head>
+
+<body>
+  
+  <header class="homeHeader"><h1 id="headerText"></h1> 
+    <button class="menuButton" onclick="openNav()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+  </header>
+  <nav id="sideNav">
+    <button id="closeNavcontainer" onclick="closeNav()"><div id="closeNavbutton"></div></button>
+    <li>
+      <ul><a href="index.html">Home</a></ul>
+      <ul><a href="#aboutMe">About</a></ul>
+      <ul><a href="projects.html">Projects</a></ul>
+      <ul><a href="mailto:wanyw128@gmail.com">Contacts</a></ul>
+    </li>
+  </nav>
+  <main id="main">
+    
+    <div id="aboutMe">
+      <h2 >About</h2>
+      <p>Greetings, my name is Wan W. and I am a rising sophomore in high school. I started learning how to program about half a year ago and am extremely passionate about computer science and its applications in other fields. <br><br> This website is my portfolio. It showcases my projects and interests, as well as my professional experience in various disciplines.</p>
+    </div>
+
+    <section>
+    <div class="homeConveyor">
+      <h2>Interests</h2>
+      <div class="homeConveyoritem" id="scienceImg">
+        <img src="assets/shuttle.webp" alt="science beakers">
+        <div class="homeConveyordesc" id="scienceText">
+          <h3>Science</h3>
+        </div>
+      </div>
+      <div class="homeConveyoritem" id="scienceImg">
+        <img src="assets/activism.jpeg" alt="science beakers">
+        <div class="homeConveyordesc" id="scienceText">
+          <h3>Activism</h3>
+        </div>
+      </div>
+      <div class="homeConveyoritem">
+        <img src="assets/philosophy.jpeg" alt="science beakers">
+        <div class="homeConveyordesc" id="artText">
+          <h3>Philosophy</h3>
+        </div>
+      </div>
+      </div>
+   <div class="homeConveyor">
+      <h2>Hobbies</h2>
+      <div class="homeConveyoritem">
+        <img src="assets/art.jpeg" alt="science beakers">
+        <div class="homeConveyordesc" id="artText">
+          <h3>Drawing</h3>
+        </div>
+      </div>
+      <div class="homeConveyoritem">
+        <img src="assets/writing.jpeg" alt="science beakers">
+        <div class="homeConveyordesc" id="writingText">
+          <h3>Writing</h3>
+        </div>
+      </div>
+      <div class="homeConveyoritem">
+        <img src="assets/reading.jpeg" alt="science beakers">
+        <div class="homeConveyordesc" id="writingText">
+          <h3>Reading</h3>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer></footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
